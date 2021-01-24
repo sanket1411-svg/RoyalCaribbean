@@ -29,6 +29,3 @@ TC1_validcredential
     Check_Royal_Suite_text
     Check_Whale_Watching_text    Does not meet my requirements
       
-    
-    
-    #Close Browser
