@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20210124 19:55:21.446" rpa="false">
+<suite id="s1" name="RoyalCaribbean MiniProject 99003133" source="D:\sanket\LTTS\robot-framework\robot_workspace\RoyalCaribbean_MiniProject_99003133">
+<suite id="s1-s1" name="TestCases" source="D:\sanket\LTTS\robot-framework\robot_workspace\RoyalCaribbean_MiniProject_99003133\TestCases">
+<suite id="s1-s1-s1" name="Test case 2" source="D:\sanket\LTTS\robot-framework\robot_workspace\RoyalCaribbean_MiniProject_99003133\TestCases\Test_case_2.robot">
+<test id="s1-s1-s1-t1" name="TC1_validcredential">
+<kw name="Launch Browser" library="comman_functionality" type="setup">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${OUTPUT_DIR}${/}driver</arg>
+</arguments>
+<status status="PASS" starttime="20210124 19:55:21.878" endtime="20210124 19:55:21.879"></status>
+</kw>
+<kw name="Append To Environment Variable" library="OperatingSystem">
+<doc>Appends given ``values`` to environment variable ``name``.</doc>
+<arguments>
+<arg>path</arg>
+<arg>${OUTPUT_DIR}${/}driver</arg>
+</arguments>
+<msg timestamp="20210124 19:55:21.881" level="INFO">Environment variable 'path' set to value 'C:/Users/sanke/AppData/Local/Temp/eoi2985.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Users/sanke/AppData/Local/Temp/eoi2985.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Program Files\Mozilla Firefox;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Java\jre1.8.0_271\bin;D:\sanket\LTTS\python_files;D:\sanket\LTTS\python_files\Scripts;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Users\sanke\AppData\Local\Microsoft\WindowsApps;C:\Users\sanke\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_271\bin;C:\Users\sanke\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Users\sanke\Downloads;;D:\sanket\LTTS\robot-framework\robot_workspace\RoyalCaribbean_MiniProject_99003133\driver'.</msg>
+<status status="PASS" starttime="20210124 19:55:21.880" endtime="20210124 19:55:21.881"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>browser=${BROWSER_NAME}</arg>
+</arguments>
+<msg timestamp="20210124 19:55:21.882" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20210124 19:55:21.882" endtime="20210124 19:55:25.088"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210124 19:55:25.089" endtime="20210124 19:55:27.295"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20210124 19:55:27.296" endtime="20210124 19:55:27.299"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>url=${URL}</arg>
+</arguments>
+<msg timestamp="20210124 19:55:27.303" level="INFO">Opening url 'https://www.royalcaribbean.com/'</msg>
+<status status="PASS" starttime="20210124 19:55:27.301" endtime="20210124 19:55:34.291"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:55:21.877" endtime="20210124 19:55:34.292"></status>
+</kw>
+<kw name="Popups_In_Start" library="DashboardPage">
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<arguments>
+<arg>Click Element</arg>
+<arg>${POPUP_START}</arg>
+</arguments>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${POPUP_START}</arg>
+</arguments>
+<msg timestamp="20210124 19:55:34.295" level="INFO">Clicking element '//div[@class="email-capture__body"]/*'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210124 19:56:05.221" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshot/selenium-screenshot-26.png"&gt;&lt;img src="Screenshot/selenium-screenshot-26.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210124 19:56:04.323" endtime="20210124 19:56:05.222"></status>
+</kw>
+<msg timestamp="20210124 19:56:05.230" level="FAIL">Element with locator '//div[@class="email-capture__body"]/*' not found.</msg>
+<status status="FAIL" starttime="20210124 19:55:34.295" endtime="20210124 19:56:05.231"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:55:34.293" endtime="20210124 19:56:05.232"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:55:34.292" endtime="20210124 19:56:05.234"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210124 19:56:07.248" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210124 19:56:05.234" endtime="20210124 19:56:07.249"></status>
+</kw>
+<kw name="Click_Menu" library="DashboardPage">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${MENU_LOCATOR}</arg>
+</arguments>
+<msg timestamp="20210124 19:56:07.255" level="INFO">Clicking element 'id=rciHeaderOpenSidenav'.</msg>
+<status status="PASS" starttime="20210124 19:56:07.253" endtime="20210124 19:56:07.559"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:56:07.250" endtime="20210124 19:56:07.561"></status>
+</kw>
+<kw name="Click_On_Find_Cruise_Ship" library="DashboardPage">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${CRUISE_SHIP_LOCATOR}</arg>
+</arguments>
+<msg timestamp="20210124 19:56:07.564" level="INFO">Clicking element '//*[contains(text(),"Cruise Ships ")]'.</msg>
+<status status="PASS" starttime="20210124 19:56:07.563" endtime="20210124 19:56:08.307"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:56:07.561" endtime="20210124 19:56:08.309"></status>
+</kw>
+<kw name="Click_Find_Cruise_Deals" library="Find_Cruise">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${FIND_CRUISE_DEALS_LOCATOR}</arg>
+</arguments>
+<msg timestamp="20210124 19:56:08.313" level="INFO">Clicking element 'xpath=(//*[contains(text(),"Cruise Deals")])[3]'.</msg>
+<status status="PASS" starttime="20210124 19:56:08.311" endtime="20210124 19:58:10.225"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:56:08.310" endtime="20210124 19:58:10.227"></status>
+</kw>
+<kw name="Click_on_Book_Now" library="Find_Cruise">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${BOOK_NOW_LOCATOR}</arg>
+</arguments>
+<msg timestamp="20210124 19:58:10.235" level="INFO">Clicking element '//*[contains(text(),"BOOK NOW")]'.</msg>
+<status status="PASS" starttime="20210124 19:58:10.232" endtime="20210124 19:58:24.155"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:58:10.228" endtime="20210124 19:58:24.157"></status>
+</kw>
+<kw name="Click_on_2-5Nights" library="Find_Cruise">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${2_5_NIGHTS_LOCATOR}</arg>
+</arguments>
+<msg timestamp="20210124 19:58:24.165" level="INFO">Clicking element 'id=filter_2to5_nights'.</msg>
+<status status="PASS" starttime="20210124 19:58:24.163" endtime="20210124 19:58:24.896"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:58:24.159" endtime="20210124 19:58:24.897"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20210124 19:58:29.903" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210124 19:58:24.898" endtime="20210124 19:58:29.904"></status>
+</kw>
+<kw name="Locate_First_Deal" library="Find_Cruise">
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${LOCATE_FIRST_DEALS_LOCATOR}</arg>
+</arguments>
+<status status="PASS" starttime="20210124 19:58:29.908" endtime="20210124 19:58:30.411"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:58:29.905" endtime="20210124 19:58:30.413"></status>
+</kw>
+<kw name="Click_On_First_Deal" library="Find_Cruise">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${LOCATE_FIRST_DEALS_LOCATOR}</arg>
+</arguments>
+<msg timestamp="20210124 19:58:30.417" level="INFO">Clicking element 'xpath=(//*[@id="FR02MIA-2007137263"]/*)/*'.</msg>
+<status status="PASS" starttime="20210124 19:58:30.416" endtime="20210124 19:58:31.488"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:58:30.414" endtime="20210124 19:58:31.489"></status>
+</kw>
+<kw name="Click_On_Iternary" library="Find_Cruise">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${ITERNARY_LOCATOR}</arg>
+</arguments>
+<msg timestamp="20210124 19:58:31.492" level="INFO">Clicking element '//*[contains(text()," View Itinerary Details")]'.</msg>
+<status status="PASS" starttime="20210124 19:58:31.491" endtime="20210124 19:58:41.855"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:58:31.490" endtime="20210124 19:58:41.857"></status>
+</kw>
+<kw name="Source_Should_Be_" library="Find_Cruise">
+<arguments>
+<arg>Miami, Florida</arg>
+</arguments>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<arguments>
+<arg>${SOURCE_LOCATOR}</arg>
+<arg>${source}</arg>
+</arguments>
+<msg timestamp="20210124 19:58:41.866" level="INFO">Verifying element 'xpath=((//*[@class="product-view-itinerary-overview__outline-item"])[1]/*)[2]' contains exact text 'Miami, Florida'.</msg>
+<status status="PASS" starttime="20210124 19:58:41.863" endtime="20210124 19:58:42.102"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:58:41.859" endtime="20210124 19:58:42.103"></status>
+</kw>
+<kw name="Destination_Should_Be" library="Find_Cruise">
+<arguments>
+<arg>Freedom of the Seas</arg>
+</arguments>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<arguments>
+<arg>${DESTINATION_LOCATOR}</arg>
+<arg>${destination}</arg>
+</arguments>
+<msg timestamp="20210124 19:58:42.106" level="INFO">Verifying element 'xpath= ((//*[@class="product-view-itinerary-overview__outline-item"])[2]/*)[2]' contains exact text 'Freedom of the Seas'.</msg>
+<status status="PASS" starttime="20210124 19:58:42.105" endtime="20210124 19:58:42.147"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:58:42.104" endtime="20210124 19:58:42.148"></status>
+</kw>
+<kw name="End Browser" library="comman_functionality" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210124 19:58:42.149" endtime="20210124 19:58:44.662"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:58:42.148" endtime="20210124 19:58:44.663"></status>
+</kw>
+<status status="PASS" starttime="20210124 19:55:21.876" endtime="20210124 19:58:44.664" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210124 19:55:21.534" endtime="20210124 19:58:44.668"></status>
+</suite>
+<status status="PASS" starttime="20210124 19:55:21.530" endtime="20210124 19:58:44.677"></status>
+</suite>
+<status status="PASS" starttime="20210124 19:55:21.492" endtime="20210124 19:58:44.685"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="RoyalCaribbean MiniProject 99003133">RoyalCaribbean MiniProject 99003133</stat>
+<stat pass="1" fail="0" id="s1-s1" name="TestCases">RoyalCaribbean MiniProject 99003133.TestCases</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="Test case 2">RoyalCaribbean MiniProject 99003133.TestCases.Test case 2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
