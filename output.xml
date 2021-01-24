@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20210124 19:55:21.446" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20210124 22:08:18.224" rpa="false">
 <suite id="s1" name="RoyalCaribbean MiniProject 99003133" source="D:\sanket\LTTS\robot-framework\robot_workspace\RoyalCaribbean_MiniProject_99003133">
 <suite id="s1-s1" name="TestCases" source="D:\sanket\LTTS\robot-framework\robot_workspace\RoyalCaribbean_MiniProject_99003133\TestCases">
-<suite id="s1-s1-s1" name="Test case 2" source="D:\sanket\LTTS\robot-framework\robot_workspace\RoyalCaribbean_MiniProject_99003133\TestCases\Test_case_2.robot">
+<suite id="s1-s1-s1" name="Test Case 1" source="D:\sanket\LTTS\robot-framework\robot_workspace\RoyalCaribbean_MiniProject_99003133\TestCases\Test_Case_1.robot">
 <test id="s1-s1-s1-t1" name="TC1_validcredential">
 <kw name="Launch Browser" library="comman_functionality" type="setup">
 <kw name="Log To Console" library="BuiltIn">
@@ -10,7 +10,7 @@
 <arguments>
 <arg>${OUTPUT_DIR}${/}driver</arg>
 </arguments>
-<status status="PASS" starttime="20210124 19:55:21.878" endtime="20210124 19:55:21.879"></status>
+<status status="PASS" starttime="20210124 22:08:18.820" endtime="20210124 22:08:18.820"></status>
 </kw>
 <kw name="Append To Environment Variable" library="OperatingSystem">
 <doc>Appends given ``values`` to environment variable ``name``.</doc>
@@ -18,37 +18,37 @@
 <arg>path</arg>
 <arg>${OUTPUT_DIR}${/}driver</arg>
 </arguments>
-<msg timestamp="20210124 19:55:21.881" level="INFO">Environment variable 'path' set to value 'C:/Users/sanke/AppData/Local/Temp/eoi2985.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Users/sanke/AppData/Local/Temp/eoi2985.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Program Files\Mozilla Firefox;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Java\jre1.8.0_271\bin;D:\sanket\LTTS\python_files;D:\sanket\LTTS\python_files\Scripts;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Users\sanke\AppData\Local\Microsoft\WindowsApps;C:\Users\sanke\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_271\bin;C:\Users\sanke\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Users\sanke\Downloads;;D:\sanket\LTTS\robot-framework\robot_workspace\RoyalCaribbean_MiniProject_99003133\driver'.</msg>
-<status status="PASS" starttime="20210124 19:55:21.880" endtime="20210124 19:55:21.881"></status>
+<msg timestamp="20210124 22:08:18.823" level="INFO">Environment variable 'path' set to value 'C:/Users/sanke/AppData/Local/Temp/eoi2985.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Users/sanke/AppData/Local/Temp/eoi2985.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Program Files\Mozilla Firefox;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Java\jre1.8.0_271\bin;D:\sanket\LTTS\python_files;D:\sanket\LTTS\python_files\Scripts;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Users\sanke\AppData\Local\Microsoft\WindowsApps;C:\Users\sanke\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_271\bin;C:\Users\sanke\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;;C:\Users\sanke\Downloads;;D:\sanket\LTTS\robot-framework\robot_workspace\RoyalCaribbean_MiniProject_99003133\driver'.</msg>
+<status status="PASS" starttime="20210124 22:08:18.821" endtime="20210124 22:08:18.823"></status>
 </kw>
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
 <arguments>
 <arg>browser=${BROWSER_NAME}</arg>
 </arguments>
-<msg timestamp="20210124 19:55:21.882" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
-<status status="PASS" starttime="20210124 19:55:21.882" endtime="20210124 19:55:25.088"></status>
+<msg timestamp="20210124 22:08:18.825" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20210124 22:08:18.824" endtime="20210124 22:08:23.286"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20210124 19:55:25.089" endtime="20210124 19:55:27.295"></status>
+<status status="PASS" starttime="20210124 22:08:23.287" endtime="20210124 22:08:25.507"></status>
 </kw>
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
-<arg>30s</arg>
+<arg>5s</arg>
 </arguments>
-<status status="PASS" starttime="20210124 19:55:27.296" endtime="20210124 19:55:27.299"></status>
+<status status="PASS" starttime="20210124 22:08:25.508" endtime="20210124 22:08:25.514"></status>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the current browser window to the provided ``url``.</doc>
 <arguments>
 <arg>url=${URL}</arg>
 </arguments>
-<msg timestamp="20210124 19:55:27.303" level="INFO">Opening url 'https://www.royalcaribbean.com/'</msg>
-<status status="PASS" starttime="20210124 19:55:27.301" endtime="20210124 19:55:34.291"></status>
+<msg timestamp="20210124 22:08:25.516" level="INFO">Opening url 'https://www.royalcaribbean.com/'</msg>
+<status status="PASS" starttime="20210124 22:08:25.515" endtime="20210124 22:08:42.796"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:55:21.877" endtime="20210124 19:55:34.292"></status>
+<status status="PASS" starttime="20210124 22:08:18.818" endtime="20210124 22:08:42.797"></status>
 </kw>
 <kw name="Popups_In_Start" library="DashboardPage">
 <kw name="Run Keyword And Ignore Error" library="BuiltIn">
@@ -62,26 +62,44 @@
 <arguments>
 <arg>${POPUP_START}</arg>
 </arguments>
-<msg timestamp="20210124 19:55:34.295" level="INFO">Clicking element '//div[@class="email-capture__body"]/*'.</msg>
+<msg timestamp="20210124 22:08:42.807" level="INFO">Clicking element '//div[@class="email-capture__body"]/*'.</msg>
+<status status="PASS" starttime="20210124 22:08:42.804" endtime="20210124 22:08:46.534"></status>
+</kw>
+<status status="PASS" starttime="20210124 22:08:42.802" endtime="20210124 22:08:46.534"></status>
+</kw>
+<status status="PASS" starttime="20210124 22:08:42.799" endtime="20210124 22:08:46.535"></status>
+</kw>
+<kw name="Check_Whale_Watching_link" library="DashboardPage">
+<kw name="Run Keyword And Ignore Error" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<arguments>
+<arg>Page Should Contain Element</arg>
+<arg>${CHECK_WHALE_WATER_LINK_LOCATOR}</arg>
+</arguments>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<arguments>
+<arg>${CHECK_WHALE_WATER_LINK_LOCATOR}</arg>
+</arguments>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20210124 19:56:05.221" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshot/selenium-screenshot-26.png"&gt;&lt;img src="Screenshot/selenium-screenshot-26.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210124 19:56:04.323" endtime="20210124 19:56:05.222"></status>
+<msg timestamp="20210124 22:08:52.503" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshot/selenium-screenshot-27.png"&gt;&lt;img src="Screenshot/selenium-screenshot-27.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210124 22:08:51.637" endtime="20210124 22:08:52.504"></status>
 </kw>
-<msg timestamp="20210124 19:56:05.230" level="FAIL">Element with locator '//div[@class="email-capture__body"]/*' not found.</msg>
-<status status="FAIL" starttime="20210124 19:55:34.295" endtime="20210124 19:56:05.231"></status>
+<msg timestamp="20210124 22:08:52.522" level="FAIL">Page should have contained element '//*[contains(text(),"whale watching")]' but did not.</msg>
+<status status="FAIL" starttime="20210124 22:08:46.540" endtime="20210124 22:08:52.523"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:55:34.293" endtime="20210124 19:56:05.232"></status>
+<status status="PASS" starttime="20210124 22:08:46.538" endtime="20210124 22:08:52.524"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:55:34.292" endtime="20210124 19:56:05.234"></status>
+<status status="PASS" starttime="20210124 22:08:46.535" endtime="20210124 22:08:52.525"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20210124 19:56:07.248" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20210124 19:56:05.234" endtime="20210124 19:56:07.249"></status>
+<msg timestamp="20210124 22:08:54.542" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210124 22:08:52.526" endtime="20210124 22:08:54.542"></status>
 </kw>
 <kw name="Click_Menu" library="DashboardPage">
 <kw name="Click Element" library="SeleniumLibrary">
@@ -89,10 +107,10 @@
 <arguments>
 <arg>${MENU_LOCATOR}</arg>
 </arguments>
-<msg timestamp="20210124 19:56:07.255" level="INFO">Clicking element 'id=rciHeaderOpenSidenav'.</msg>
-<status status="PASS" starttime="20210124 19:56:07.253" endtime="20210124 19:56:07.559"></status>
+<msg timestamp="20210124 22:08:54.546" level="INFO">Clicking element 'id=rciHeaderOpenSidenav'.</msg>
+<status status="PASS" starttime="20210124 22:08:54.545" endtime="20210124 22:08:54.721"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:56:07.250" endtime="20210124 19:56:07.561"></status>
+<status status="PASS" starttime="20210124 22:08:54.543" endtime="20210124 22:08:54.722"></status>
 </kw>
 <kw name="Click_On_Find_Cruise_Ship" library="DashboardPage">
 <kw name="Click Element" library="SeleniumLibrary">
@@ -100,140 +118,151 @@
 <arguments>
 <arg>${CRUISE_SHIP_LOCATOR}</arg>
 </arguments>
-<msg timestamp="20210124 19:56:07.564" level="INFO">Clicking element '//*[contains(text(),"Cruise Ships ")]'.</msg>
-<status status="PASS" starttime="20210124 19:56:07.563" endtime="20210124 19:56:08.307"></status>
+<msg timestamp="20210124 22:08:54.727" level="INFO">Clicking element '//*[contains(text(),"Cruise Ships ")]'.</msg>
+<status status="PASS" starttime="20210124 22:08:54.725" endtime="20210124 22:08:55.114"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:56:07.561" endtime="20210124 19:56:08.309"></status>
+<status status="PASS" starttime="20210124 22:08:54.723" endtime="20210124 22:08:55.115"></status>
 </kw>
-<kw name="Click_Find_Cruise_Deals" library="Find_Cruise">
+<kw name="Click_On_Cruise_Deals" library="DashboardPage">
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
-<arg>${FIND_CRUISE_DEALS_LOCATOR}</arg>
+<arg>${CRUISE_DEALS_LOCATOR}</arg>
 </arguments>
-<msg timestamp="20210124 19:56:08.313" level="INFO">Clicking element 'xpath=(//*[contains(text(),"Cruise Deals")])[3]'.</msg>
-<status status="PASS" starttime="20210124 19:56:08.311" endtime="20210124 19:58:10.225"></status>
+<msg timestamp="20210124 22:08:55.117" level="INFO">Clicking element 'id=rciHeaderSideNavSubmenu-3-2'.</msg>
+<status status="PASS" starttime="20210124 22:08:55.117" endtime="20210124 22:09:06.965"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:56:08.310" endtime="20210124 19:58:10.227"></status>
+<status status="PASS" starttime="20210124 22:08:55.116" endtime="20210124 22:09:06.967"></status>
 </kw>
-<kw name="Click_on_Book_Now" library="Find_Cruise">
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click the element identified by ``locator``.</doc>
-<arguments>
-<arg>${BOOK_NOW_LOCATOR}</arg>
-</arguments>
-<msg timestamp="20210124 19:58:10.235" level="INFO">Clicking element '//*[contains(text(),"BOOK NOW")]'.</msg>
-<status status="PASS" starttime="20210124 19:58:10.232" endtime="20210124 19:58:24.155"></status>
-</kw>
-<status status="PASS" starttime="20210124 19:58:10.228" endtime="20210124 19:58:24.157"></status>
-</kw>
-<kw name="Click_on_2-5Nights" library="Find_Cruise">
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click the element identified by ``locator``.</doc>
-<arguments>
-<arg>${2_5_NIGHTS_LOCATOR}</arg>
-</arguments>
-<msg timestamp="20210124 19:58:24.165" level="INFO">Clicking element 'id=filter_2to5_nights'.</msg>
-<status status="PASS" starttime="20210124 19:58:24.163" endtime="20210124 19:58:24.896"></status>
-</kw>
-<status status="PASS" starttime="20210124 19:58:24.159" endtime="20210124 19:58:24.897"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>5s</arg>
-</arguments>
-<msg timestamp="20210124 19:58:29.903" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20210124 19:58:24.898" endtime="20210124 19:58:29.904"></status>
-</kw>
-<kw name="Locate_First_Deal" library="Find_Cruise">
+<kw name="Locate_RHAPSODY_OF_THE_SEAS" library="DashboardPage">
 <kw name="Scroll Element Into View" library="SeleniumLibrary">
 <doc>Scrolls the element identified by ``locator`` into view.</doc>
 <arguments>
-<arg>${LOCATE_FIRST_DEALS_LOCATOR}</arg>
+<arg>${RHAPSODY_LOCATOR}</arg>
 </arguments>
-<status status="PASS" starttime="20210124 19:58:29.908" endtime="20210124 19:58:30.411"></status>
+<status status="PASS" starttime="20210124 22:09:06.973" endtime="20210124 22:09:07.524"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:58:29.905" endtime="20210124 19:58:30.413"></status>
+<status status="PASS" starttime="20210124 22:09:06.969" endtime="20210124 22:09:07.524"></status>
 </kw>
-<kw name="Click_On_First_Deal" library="Find_Cruise">
+<kw name="Click_Rhapsody" library="DashboardPage">
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
-<arg>${LOCATE_FIRST_DEALS_LOCATOR}</arg>
+<arg>${RHAPSODY_LOCATOR}</arg>
 </arguments>
-<msg timestamp="20210124 19:58:30.417" level="INFO">Clicking element 'xpath=(//*[@id="FR02MIA-2007137263"]/*)/*'.</msg>
-<status status="PASS" starttime="20210124 19:58:30.416" endtime="20210124 19:58:31.488"></status>
+<msg timestamp="20210124 22:09:07.526" level="INFO">Clicking element '//*[contains(text(),"RHAPSODY OF THE SEAS")]'.</msg>
+<status status="PASS" starttime="20210124 22:09:07.526" endtime="20210124 22:09:14.211"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:58:30.414" endtime="20210124 19:58:31.489"></status>
+<status status="PASS" starttime="20210124 22:09:07.524" endtime="20210124 22:09:14.212"></status>
 </kw>
-<kw name="Click_On_Iternary" library="Find_Cruise">
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click the element identified by ``locator``.</doc>
+<kw name="Select_Deck_Eight" library="DashboardPage">
 <arguments>
-<arg>${ITERNARY_LOCATOR}</arg>
+<arg>Deck Eight</arg>
 </arguments>
-<msg timestamp="20210124 19:58:31.492" level="INFO">Clicking element '//*[contains(text()," View Itinerary Details")]'.</msg>
-<status status="PASS" starttime="20210124 19:58:31.491" endtime="20210124 19:58:41.855"></status>
-</kw>
-<status status="PASS" starttime="20210124 19:58:31.490" endtime="20210124 19:58:41.857"></status>
-</kw>
-<kw name="Source_Should_Be_" library="Find_Cruise">
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
 <arguments>
-<arg>Miami, Florida</arg>
+<arg>${DECK_LOCATOR}</arg>
+<arg>${deck}</arg>
 </arguments>
-<kw name="Element Text Should Be" library="SeleniumLibrary">
-<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<arguments>
-<arg>${SOURCE_LOCATOR}</arg>
-<arg>${source}</arg>
-</arguments>
-<msg timestamp="20210124 19:58:41.866" level="INFO">Verifying element 'xpath=((//*[@class="product-view-itinerary-overview__outline-item"])[1]/*)[2]' contains exact text 'Miami, Florida'.</msg>
-<status status="PASS" starttime="20210124 19:58:41.863" endtime="20210124 19:58:42.102"></status>
+<msg timestamp="20210124 22:09:14.220" level="INFO">Selecting options from selection list 'name=deck-dropdown' by label Deck Eight.</msg>
+<status status="PASS" starttime="20210124 22:09:14.218" endtime="20210124 22:09:15.214"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:58:41.859" endtime="20210124 19:58:42.103"></status>
+<status status="PASS" starttime="20210124 22:09:14.214" endtime="20210124 22:09:15.216"></status>
 </kw>
-<kw name="Destination_Should_Be" library="Find_Cruise">
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
 <arguments>
-<arg>Freedom of the Seas</arg>
+<arg>xpath=(//*[@class="deck-plan__dates-list"]/*)[1]</arg>
 </arguments>
-<kw name="Element Text Should Be" library="SeleniumLibrary">
-<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<arguments>
-<arg>${DESTINATION_LOCATOR}</arg>
-<arg>${destination}</arg>
-</arguments>
-<msg timestamp="20210124 19:58:42.106" level="INFO">Verifying element 'xpath= ((//*[@class="product-view-itinerary-overview__outline-item"])[2]/*)[2]' contains exact text 'Freedom of the Seas'.</msg>
-<status status="PASS" starttime="20210124 19:58:42.105" endtime="20210124 19:58:42.147"></status>
+<assign>
+<var>${validate}</var>
+</assign>
+<msg timestamp="20210124 22:09:15.495" level="INFO">${validate} = February 2nd, 2021 - April 3rd, 2021</msg>
+<status status="PASS" starttime="20210124 22:09:15.218" endtime="20210124 22:09:15.496"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:58:42.104" endtime="20210124 19:58:42.148"></status>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${validate}</arg>
+</arguments>
+<status status="PASS" starttime="20210124 22:09:15.498" endtime="20210124 22:09:15.500"></status>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=(//*[@class="deck-plan__dates-list"]/*)[2]</arg>
+</arguments>
+<assign>
+<var>${validate_1}</var>
+</assign>
+<msg timestamp="20210124 22:09:15.600" level="INFO">${validate_1} = April 10th, 2021 - April 16th, 2022</msg>
+<status status="PASS" starttime="20210124 22:09:15.501" endtime="20210124 22:09:15.601"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${validate_1}</arg>
+</arguments>
+<status status="PASS" starttime="20210124 22:09:15.602" endtime="20210124 22:09:15.604"></status>
+</kw>
+<kw name="Check_Royal_Suite_text" library="DashboardPage">
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<arguments>
+<arg>${ROYAL_SUITE_LOCATOR}</arg>
+</arguments>
+<msg timestamp="20210124 22:09:15.649" level="INFO">Current page contains element '//*[contains(text(),"Royal Suite")]'.</msg>
+<status status="PASS" starttime="20210124 22:09:15.607" endtime="20210124 22:09:15.650"></status>
+</kw>
+<status status="PASS" starttime="20210124 22:09:15.605" endtime="20210124 22:09:15.651"></status>
+</kw>
+<kw name="Check_Whale_Watching_text" library="DashboardPage">
+<arguments>
+<arg>Does not meet my requirements</arg>
+</arguments>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<arguments>
+<arg>${CHECK_WHALE_WATER_LINK_LOCATOR}</arg>
+<arg>${text}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210124 22:09:21.222" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshot/selenium-screenshot-28.png"&gt;&lt;img src="Screenshot/selenium-screenshot-28.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210124 22:09:20.832" endtime="20210124 22:09:21.223"></status>
+</kw>
+<msg timestamp="20210124 22:09:21.224" level="FAIL">Does not meet my requirements</msg>
+<status status="FAIL" starttime="20210124 22:09:15.653" endtime="20210124 22:09:21.225"></status>
+</kw>
+<status status="FAIL" starttime="20210124 22:09:15.652" endtime="20210124 22:09:21.225"></status>
 </kw>
 <kw name="End Browser" library="comman_functionality" type="teardown">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210124 19:58:42.149" endtime="20210124 19:58:44.662"></status>
+<status status="PASS" starttime="20210124 22:09:21.228" endtime="20210124 22:09:23.549"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:58:42.148" endtime="20210124 19:58:44.663"></status>
+<status status="PASS" starttime="20210124 22:09:21.226" endtime="20210124 22:09:23.551"></status>
 </kw>
-<status status="PASS" starttime="20210124 19:55:21.876" endtime="20210124 19:58:44.664" critical="yes"></status>
+<status status="FAIL" starttime="20210124 22:08:18.816" endtime="20210124 22:09:23.551" critical="yes">Does not meet my requirements</status>
 </test>
-<status status="PASS" starttime="20210124 19:55:21.534" endtime="20210124 19:58:44.668"></status>
+<status status="FAIL" starttime="20210124 22:08:18.329" endtime="20210124 22:09:23.554"></status>
 </suite>
-<status status="PASS" starttime="20210124 19:55:21.530" endtime="20210124 19:58:44.677"></status>
+<status status="FAIL" starttime="20210124 22:08:18.325" endtime="20210124 22:09:23.562"></status>
 </suite>
-<status status="PASS" starttime="20210124 19:55:21.492" endtime="20210124 19:58:44.685"></status>
+<status status="FAIL" starttime="20210124 22:08:18.282" endtime="20210124 22:09:23.569"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="RoyalCaribbean MiniProject 99003133">RoyalCaribbean MiniProject 99003133</stat>
-<stat pass="1" fail="0" id="s1-s1" name="TestCases">RoyalCaribbean MiniProject 99003133.TestCases</stat>
-<stat pass="1" fail="0" id="s1-s1-s1" name="Test case 2">RoyalCaribbean MiniProject 99003133.TestCases.Test case 2</stat>
+<stat pass="0" fail="1" id="s1" name="RoyalCaribbean MiniProject 99003133">RoyalCaribbean MiniProject 99003133</stat>
+<stat pass="0" fail="1" id="s1-s1" name="TestCases">RoyalCaribbean MiniProject 99003133.TestCases</stat>
+<stat pass="0" fail="1" id="s1-s1-s1" name="Test Case 1">RoyalCaribbean MiniProject 99003133.TestCases.Test Case 1</stat>
 </suite>
 </statistics>
 <errors>

@@ -20,10 +20,12 @@ TC1_validcredential
     Locate_RHAPSODY_OF_THE_SEAS
     Click_Rhapsody    
     Select_Deck_Eight    Deck Eight
-    ${validate}    Get_Available_Dates_1
+    ${validate}    Get Text    xpath=(//*[@class="deck-plan__dates-list"]/*)[1]
+    #${validate}    Get_Available_Dates_1
     Log To Console    ${validate}    
     #Print_Dates_1    ${validate}    
-    ${validate_1}    Get_Available_Dates_2
+    ${validate_1}    Get Text    xpath=(//*[@class="deck-plan__dates-list"]/*)[2]
+    #${validate_1}    Get_Available_Dates_2
     Log To Console    ${validate_1}        
     #Print_Dates_2    ${validate_1}
     Check_Royal_Suite_text
