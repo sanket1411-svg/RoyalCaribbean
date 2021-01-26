@@ -25,6 +25,9 @@ Click_Find_Cruise_Deals
 Click_on_Book_Now
     Click Element    ${BOOK_NOW_LOCATOR} 
     
+Locate_2_5Nights
+    Scroll Element Into View    ${2_5_NIGHTS_LOCATOR}
+    
 Click_on_2-5Nights
     Click Element    ${2_5_NIGHTS_LOCATOR}    
 

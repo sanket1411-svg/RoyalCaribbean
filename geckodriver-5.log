@@ -1,0 +1,18 @@
+1611644225146	geckodriver	INFO	Listening on 127.0.0.1:63578
+1611644228245	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sanke\\AppData\\Local\\Temp\\rust_mozprofilecnCgMX"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611644232104	Marionette	INFO	Listening on port 63586
+1611644232472	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: https://tags.tiqcdn.com/utag/rccl/gdp/prod/utag.538.js?utv=ut4.46.201910101911, line 5: ReferenceError: KAMPYLE_ONSITE_SDK is not defined
+JavaScript error: https://sb.monetate.net/img/1/388/3292856.js, line 89: TypeError: MutationObserver.observe: Argument 1 is not an object.
+JavaScript error: https://sb.monetate.net/img/1/388/3250036.js, line 80: TypeError: MutationObserver.observe: Argument 1 is not an object.
+JavaScript error: https://sb.monetate.net/img/1/388/3292856.js, line 89: TypeError: MutationObserver.observe: Argument 1 is not an object.
+JavaScript error: https://sb.monetate.net/img/1/388/3250036.js, line 80: TypeError: MutationObserver.observe: Argument 1 is not an object.
+1611644280013	Marionette	INFO	Stopped listening on port 63586
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
